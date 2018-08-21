@@ -9,7 +9,8 @@ html, body {
   }
 
   h1 {
-      color: #4aaaa5;
+    color: #4aaaa5!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
   }
 
     /* /////////////// */
@@ -29,9 +30,13 @@ html, body {
 
 #navBarBrand {
     background-color: #4aaaa5; 
-    padding: 15px; 
-    position: absolute;
+    padding: 25px; 
     margin: 0 auto;
+    float: left;
+}
+
+#myName {
+    color: #fff!important;
 }
 
     /* /////////////// */
