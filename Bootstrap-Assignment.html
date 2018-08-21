@@ -10,13 +10,14 @@
     </head>
     <body>
            
-            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-                <a class="navbar-brand font-weight-bold" href="#">Carlos Barahona Jr.</a>
+        <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-light border-bottom d-flex" id="navHeader">
+                <a class="navbar-brand font-weight-bold" href="#" id="navBarBrand">Carlos Barahona Jr.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse d-inline" id="navbarNav">
+                    <ul class="navbar-nav" >
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -29,14 +30,16 @@
                     </ul>
                 </div>
             </nav>
+        </header>
 
-        <div class="clearfix" style="margin-top: 30px">
+
+        <div class="clearfix" id="main">
             <div class=" clearfix container border">
-                    <p class="display-1" style="padding-top: 10px;">About Me</p>
+                    <h1 class="display-1" id="aboutMe">About Me</h1>
 
                     <br><hr class="line"><br>
             
-                    <img class="float-left" src="https://avatars2.githubusercontent.com/u/9100640?s=400&u=144065e2c2c139e46815fb42544b6bd5a61bf71d&v=4" alt="It's supposed to be me!" style="padding: 20px; width: 300px;">
+                    <img class="float-left" src="https://avatars2.githubusercontent.com/u/9100640?s=400&u=144065e2c2c139e46815fb42544b6bd5a61bf71d&v=4" alt="It's supposed to be me!" style="padding: 20px; width: 250px;">
             
                     <p class="" style="margin-top:5%">Born and raised in Dallas. Lived here all my life. Grew up loving to play video game, such as Halo, Runescape, Call of Duty. As a kid I wanted to become a Game Designer due to playing and loving all these games and their stories they told. I never got to that point of trying to become one, but ended up finding another type of programming I also enjoyed and that was Web Developing.</p>
             
@@ -46,19 +49,15 @@
             </div>
         </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
 
+        <footer class="footer">
+            <!-- <div class="container"> -->
+                <nav class="navbar fixed-bottom navbar-light bg-secondary border-top d-flex justify-content-center align-content-center" id="navFooter">
+                        <p class="text-white" id="copyRight">Copyright©</p>
+                </nav>
+            </div>
+        </footer>
 
-        <nav class="navbar sticky-bottom navbar-light bg-secondary border-top">
-            <h4 class="text-center text-white">Copyright©</h4>
-        </nav>
 
     </body>
 </html>
