@@ -6,12 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     </head>
     <body class="d-flex flex-column">
-        
         
         <header id="header">
             <nav class="navbar navbar-expand-lg navbar-light border-bottom d-flex justify-content-end align-items-end" id="navHeader">
@@ -21,13 +18,13 @@
                 </button>
                 <div class="collapse navbar-collapse align-self-center" id="navbarNav">
                     <ul class="navbar-nav" >
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="Index-Bootstrap.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Portfolio-Bootstrap.html">Portfolio</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="Contact-Bootstrap.html">Contact</a>
                         </li>
                     </ul>
@@ -38,17 +35,31 @@
 
         <div class="clearfix flex-grow-1 flex-shrink-0" id="main">
             <div class=" clearfix container border">
-                <h1 id="aboutMe">About Me</h1>
+                <h1 id="Contact">Contact</h1>
 
                 <br><hr class="line"><br>
-        
-                <img class="float-left" src="https://avatars2.githubusercontent.com/u/9100640?s=400&u=144065e2c2c139e46815fb42544b6bd5a61bf71d&v=4" alt="It's supposed to be me!" style="padding: 20px; width: 250px;">
-        
-                <p class="" style="margin-top:5%;">Born and raised in Dallas. Lived here all my life. Grew up loving to play video game, such as Halo, Runescape, Call of Duty. As a kid I wanted to become a Game Designer due to playing and loving all these games and their stories they told. I never got to that point of trying to become one, but ended up finding another type of programming I also enjoyed and that was Web Developing.</p>
-        
-                <p class="" style="clear:both">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates est officia reprehenderit cum vel ad, eius dicta veritatis quia maxime velit natus aut sequi consectetur possimus. Repellendus, blanditiis atque?</p>
                 
-                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsam, quos repudiandae corporis laudantium at illum praesentium distinctio sint necessitatibus velit temporibus eaque architecto magnam accusantium. Quo saepe enim fugiat.</p>        
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Enter Name">
+                        <!-- <small id="emailHelp" class="form-text text-muted"></small> -->
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
             </div>
         </div>
 
