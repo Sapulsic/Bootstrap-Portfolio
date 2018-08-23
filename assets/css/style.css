@@ -21,6 +21,7 @@ h1 {
 #header {
     background-color: #fff!important;
     border-bottom: 3px solid #cccccc;
+    display: flex;
 }
 
 .navbar {
@@ -36,12 +37,13 @@ h1 {
 #navBarBrand {
     background-color: #4aaaa5; 
     padding: 25px; 
-    margin: 0 36.5% 0 0;
     float: left;
 }
 
 #myName {
     color: #fff!important;
+    /* margin: 0 16%;
+    padding: 25px; */
 }
 
     /* /////////////// */
@@ -51,12 +53,13 @@ h1 {
 #main {
     margin: 65px auto;
     max-width: 960px;
-    min-width: 960px;
+    width: 100%;
     background-color: #EAF2EF;
 }
 
 .container {
     padding: 20px 0;
+    font-size: 1.15em;
 }
 
 #aboutMe, #Portfolio, #Contact {
